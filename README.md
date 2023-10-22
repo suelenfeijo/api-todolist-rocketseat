@@ -12,11 +12,11 @@ No curso promovido pela Rocketseat de Java, desenvolvemos juntos uma aplicação
 * Framework Lombok Criptografia e descriptografia de senhas com Bcrypt
 * Deploy do serviço na nuvem (Render)
 
-Link da API | https://apitodolist-rocketseat-deploy.onrender.com
+Link da API | https://api-todolist-rocketseat.onrender.com
 ---|-----------
 
 ```POST``` Criando um novo usuário <br/>
- uri: | https://apitodolist-rocketseat-deploy.onrender.com/users/
+ uri: | https://api-todolist-rocketseat.onrender.com/users/
  --|--
  ```
  arquivo JSON
@@ -29,7 +29,7 @@ Link da API | https://apitodolist-rocketseat-deploy.onrender.com
 
 ```POST``` Criando uma nova tarefa (ativar Auth, type Basic Auth e inserir o username e password): <br/> 
 
- uri: | https://apitodolist-rocketseat-deploy.onrender.com/tasks/
+ uri: | https://api-todolist-rocketseat.onrender.com/tasks/
  --|--
 
 ```
@@ -46,11 +46,11 @@ Link da API | https://apitodolist-rocketseat-deploy.onrender.com
 
  ```GET```  Listando todas as tarefas do usuário autenticado (ativar Auth, type Basic Auth e inserir o username e password):  <br/>
 
- uri: | https://apitodolist-rocketseat-deploy.onrender.com/tasks/
+ uri: | https://api-todolist-rocketseat.onrender.com/tasks/
  --|--
 
 ```POST``` Atualização de tarefa (ativar Auth, type Basic Auth e inserir o username e password):  <br/>
-uri: | https://apitodolist-rocketseat-deploy.onrender.com/id-da-tarefa-retornada-apos-criacao
+uri: | https://api-todolist-rocketseat.onrender.com/id-da-tarefa-retornada-apos-criacao
 --|-- 
 
 Finalizamos o curso com os seguintes itens implementados:
