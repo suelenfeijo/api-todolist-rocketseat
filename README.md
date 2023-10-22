@@ -64,7 +64,9 @@ Finalizamos o curso com os seguintes itens implementados:
 
 > Create: <br/>implementamos a criação de usuários de acordo com o modelo de negócio pensado. Cada usuário possui um ID, nome de usuário, nome, senha e data de criação. Também implementamos uma verificação para evitar que usuários com o mesmo nome de usuário sejam cadastrados, lançando a exceção "Usuário já existe".
 E, finalmente, usamos o Git Bash para fazer o upload do código para o GitHub e, em seguida, fazer o deploy da aplicação na nuvem.
-</br>
- ###### (Abaixo imagem da api ativa rodando online)
-![render api ativa](https://i.postimg.cc/59gtWFCV/Captura-de-tela-2023-10-17-032212.png)
+
+ ###### Abaixo imagem da api ativa rodando online
+
+
+![render-api-ativa](https://i.postimg.cc/tJ3RSkSB/Captura-de-tela-2023-10-21-223206.png)
 Meus sinceros agradecimentos à grande professora Daniele Leão, que possui uma didática incrível. E também à RocketSeat por tornar possível a produção do curso, que foi muito enriquecedor para mim.
