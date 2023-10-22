@@ -3,11 +3,6 @@ package com.suelen.springbootform.filter;
 import java.io.IOException;
 import java.util.Base64;
 
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -15,6 +10,10 @@ import org.springframework.web.filter.OncePerRequestFilter;
 import com.suelen.springbootform.users.IUserRepository;
 
 import at.favre.lib.crypto.bcrypt.BCrypt;
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 //faz com que o spring entenda que tem que gerenciar também. Component é a classe mais generica do spring
 //mas poderia ser um controller
